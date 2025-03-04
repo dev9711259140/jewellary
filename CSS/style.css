@@ -1,0 +1,1110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* navigation section */
+.navigation{
+    width: 95%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    justify-content: space-between;
+}
+
+nav b{
+    color: #fff;
+}
+
+nav span{
+    text-align: end;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* banner section */
+.banner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bannerinner{
+    width: 50%;
+    color: #fff;
+    position: relative;
+    top: 200px;
+}
+
+.bannerinner h1{
+    font-size: 60px;
+}
+
+.bannerinner p{
+    font-size: 20px;
+}
+
+.bannerinner button{
+    padding: 10px 35px 10px 35px;
+    border: 0.1px solid orangered;
+    border-radius: 4px;
+    background: none;
+    color: orangered;
+}
+
+/* first section starts here*/
+.first{
+    width: 100%;
+    background-color: #fff;
+}
+
+.firstinner{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.firsttop{
+    width: 100%;
+    text-align: center;
+}
+
+/* firstmiddle section */
+.firstmiddle{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+}
+
+.box{
+    background-color: #eee;
+    margin: 10px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ftop1, .ftop2, .ftop3, .ftop4, .ftop5, .ftop6, .ftop7, .ftop8{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 14px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.fmid1, .fmid2, .fmid3, .fmid4, .fmid5, .fmid6, .fmid7{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.fmid1 img, .fmid2 img, .fmid3 img, .fmid4 img, .fmid5 img, .fmid6 img, .fmid7 img{
+    width: 90%;
+    height:  150px;
+}
+
+.fmid8{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.fmid8 img{
+    width: 100%;
+}
+
+.fmid8 img{
+    width: 70%;
+    height: 200px;
+}
+
+.fbot1, .fbot2, .fbot3, .fbot4, .fbot5, .fbot6, .fbot7, .fbot8{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70px 70px;
+    justify-content: space-between;
+}
+
+.fbot1 b, .fbot2 b, .fbot3 b, .fbot4 b, .fbot5 b, .fbot6 b, .fbot7 b, .fbot8 b{
+    color: orangered;
+}
+
+/* firstbottom section */
+.firstbottom{
+    width: 100%;
+    text-align: center;
+}
+
+.firstbottom button{
+    padding: 10px 35px 10px 35px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: rgb(241, 105, 55);
+    color: #fff;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+
+.firstbottom button:hover{
+    cursor: pointer;
+    color: orangered;
+    background: none;
+    border: 0.1px solid orangered;
+}
+
+/* second section start here */
+.second{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+}
+
+.secondleft{
+    height: 400px;
+    background-image: url(../image/image10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+}
+
+.secondleft::before{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+    background-color: black;
+}
+
+.secondright h1{
+    color: black;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.secondright p{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.secondright button{
+    padding: 10px 35px 10px 35px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: rgb(241, 105, 55);
+    color: #fff;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+
+.secondright button:hover{
+    cursor: pointer;
+    color: orangered;
+    background: none;
+    border: 0.1px solid orangered;
+}
+
+/* third section start here */
+.third{
+    width: 100%;
+}
+
+.thirdinner{
+    width: 98%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60% 39%;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.thirdleft{
+    height: 500px;
+    background: url(../image/image11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tlbox1{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.tlbox1 h1{
+    color: #fff;
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+
+.tlbox1 button{
+    padding: 10px 35px 10px 35px;
+    border-style: none;
+    background: none;
+    color: orangered;
+    border: 0.1px solid orangered;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+
+.tlbox1 button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: orangered;
+}
+
+.thirdright{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 240px 240px;
+    align-content: space-between;
+}
+
+.trbox1{
+    text-align: right;
+    padding-top: 130px;
+    padding-right: 15px;
+}
+
+.trbox1 h1{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.trbox1 button{
+    padding: 10px 35px 10px 35px;
+    border-style: none;
+    background: none;
+    color: orangered;
+    border: 0.1px solid orangered;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+
+.trbox1 button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: orangered;
+}
+
+.trbox2{
+    padding-top: 130px;
+    padding-left: 15px;
+}
+
+.trbox2 h1{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.trbox2 button{
+    padding: 10px 35px 10px 35px;
+    border-style: none;
+    background: none;
+    color: orangered;
+    border: 0.1px solid orangered;
+    font-size: 20px;
+    transition-duration: 0.1s;
+}
+
+.trbox2 button:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: orangered;
+}
+
+.third_left_top{
+    background-image: url(../image/image12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third_left_bottom{
+    background-image: url(../image/image13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* fourth section start here */
+.fourth{
+    width: 100%;
+}
+
+.fourthinner{
+    width: 80%;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.fourthtop{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.fourthbottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-between;
+}
+
+.fbleft{
+    background-color: #eee;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.fbleft::before{
+    content: "15 july";
+    background-color: black;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    left: 30px;
+    top: 380px;
+    font-size: 30px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    border: 4px solid #eee;
+}
+
+.fbleft h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.fbleft p{
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.fbleft button{
+    padding: 10px 35px 10px 35px;
+    border-style: none;
+    background: none;
+    color: black;
+    border: 0.1px solid black;
+    margin-left: 30px;
+}
+
+.fbleft button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+
+.fbleft img, .fbright img{
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.fbright{
+    background-color: #eee;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.fbright::before{
+    content: "14 july";
+    background-color: black;
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    left: 30px;
+    top: 380px;
+    font-size: 30px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    border: 4px solid #eee;
+}
+
+.fbright h3{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.fbright p{
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.fbright button{
+    padding: 10px 35px 10px 35px;
+    border-style: none;
+    background: none;
+    color: black;
+    border: 0.1px solid black;
+    margin-left: 30px;
+}
+
+.fbright button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+
+/* fifth section */
+.fifth{
+    width: 100%;
+}
+
+.fifthinner{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+.fifthtop{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.fifthbottom{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.fifthbottom img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 4px solid gray;
+}
+
+.fifthbottom h3{
+    color: rgb(241, 105, 55);
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.fifthbottom p{
+    color: #eee;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fifthbottom span{
+    color: #eee;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.arrow{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.arrow button{
+    padding: 15px 15px 15px 15px;
+    color: #fff;
+    background-color: rgb(241, 105, 55);
+    border-style: none;
+    border-radius: 2px;
+}
+
+.arrow button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+/* last section start here */
+.footer{
+    width: 100%;
+    background-color: black;
+}
+
+.footerinner{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footertop{
+    width: 100%;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: 900px 70px 70px 70px;
+    justify-content: space-between;
+}
+
+.ftbox1 input{
+    width: 900px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.ftbox2 span{
+    color: #fff;
+}
+
+.ftbox4{
+    background-color: red;
+}
+
+.ftbox3{
+    background-color: red;
+}
+
+.footerbottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    justify-content: space-between;
+}
+
+.botbox1{
+    color: #fff;
+}
+
+.content{
+    color: #fff;
+}
+
+.botbottom{
+    width: 100%;
+}
+
+.bottomtop, .bottom2{
+    width: 100%;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 20% 75%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.leftonly1 img, .leftonly2 img{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.botbox3{
+    color: #fff;
+}
+
+.botbox3 p{
+    font-size: 17px;
+}
+
+.botbox4 h1{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.contact1 span, .contact2 span, .contact3 span{
+    padding-top: 3px;
+}
+
+.contact1, .contact2, .contact3{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 10px 270px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width:992px)
+{
+    .main{
+        height: 500px;
+    }
+
+    .banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .bannerinner{
+        width: 40%;
+        color: #fff;
+        position: relative;
+        top: 100px;
+    }
+    
+    .bannerinner h1{
+        font-size: 30px;
+    }
+    
+    .bannerinner p{
+        font-size: 15px;
+    }
+
+    .secondleft{
+        width: 400px;
+        height: 240px;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .secondright{
+        position: relative;
+        top: -100px;
+    }
+
+    .firstmiddle{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        justify-content: space-between;
+    }
+
+    .thirdleft{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .third_left_top, .third_left_bottom{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footerbottom{
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        justify-content: space-between;
+    }
+
+    .botbox3{
+        padding-top: 20px;
+    }
+
+    .contact1, .contact2, .contact3{
+        display: grid;
+        grid-template-columns: 5% 90%;
+        justify-content: space-between;
+    }
+
+    .botbox4{
+        padding-top: 20px;
+    }
+
+    .footertop{
+        display: grid;
+        grid-template-columns: 450px 50px 50px 50px;
+        justify-content: space-between;
+    }
+
+    .ftbox1 input{
+        width: 450px;
+    }
+
+    .fbright{
+        position: relative;
+    }
+    
+    .fbright::before{
+        top: 220px;
+        position: absolute;
+    }
+
+    .fbleft{
+        position: relative;
+    }
+    
+    .fbleft::before{
+        top: 220px;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .main{
+        height: 500px;
+    }
+
+    .banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .bannerinner{
+        width: 40%;
+        color: #fff;
+        position: relative;
+        top: 100px;
+    }
+    
+    .bannerinner h1{
+        font-size: 30px;
+    }
+    
+    .bannerinner p{
+        font-size: 15px;
+    }
+
+    .firstmiddle{
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        justify-content: space-between;
+    }
+
+    .second{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+    
+    .secondleft{
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        top: 0;
+    }
+    
+    .secondleft::before{
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: -30px;
+        left: -30px;
+        z-index: -1;
+        background-color: black;
+    }
+
+    .secondright{
+        padding-top: 20px;
+    }
+
+    .thirdinner{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .thirdright{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 300px;
+        justify-content: space-between;
+    }
+
+    .third_left_top{
+        margin-top: 20px;
+    }
+
+    .third_left_bottom{
+        margin-top: 20px;
+    }
+
+    .fourthinner{
+        padding-top: 50px;
+    }
+
+    .fourthbottom{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .fbright{
+        margin-top: 50px;
+    }
+
+    .footerbottom{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .botbox1, .botbox2, .botbox3, .botbox4{
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .bottomtop, .bottom2{
+        width: 50%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 10% 80%;
+        justify-content: space-between;
+    }
+
+    .contact1, .contact2, .contact3{
+        width: 40%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 10px 240px;
+        justify-content: space-between;
+    }
+
+    .fbright{
+        position: relative;
+    }
+    
+    .fbright::before{
+        content: "15 july";
+        background-color: black;
+        color: #fff;
+        width: 70px;
+        height: 70px;
+        left: 30px;
+        top: 400px;
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+        border: 4px solid #eee;
+    }
+
+    .fbleft{
+        position: relative;
+    }
+    
+    .fbleft::before{
+        content: "15 july";
+        background-color: black;
+        color: #fff;
+        width: 70px;
+        height: 70px;
+        left: 30px;
+        top: 400px;
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+        border: 4px solid #eee;
+    }
+}
+
+@media only screen and (max-width:475px)
+{
+    .main{
+        height: 350px;
+    }
+
+    .banner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .bannerinner{
+        width: 40%;
+        color: #fff;
+        position: relative;
+        top: 20px;
+    }
+    
+    .bannerinner h1{
+        font-size: 25px;
+    }
+    
+    .bannerinner p{
+        font-size: 10px;
+    }
+
+    .firstmiddle{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .second{
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+    
+    .secondleft{
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        top: 0;
+    }
+    
+    .secondleft::before{
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: -20px;
+        left: -20px;
+        z-index: -1;
+        background-color: black;
+    }
+
+    .secondright{
+        padding-top: 20px;
+    }
+
+    .thirdinner{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .thirdleft{
+        height: 300px;
+    }
+
+    .thirdright{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 250px 250px;
+    }
+
+    .fbleft{
+        position: relative;
+    }
+    
+    .fbleft::before{
+        content: "15 july";
+        background-color: black;
+        color: #fff;
+        width: 70px;
+        height: 70px;
+        left: 30px;
+        top: 185px;
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+        border: 4px solid #eee;
+    }
+
+    .fbright{
+        position: relative;
+    }
+    
+    .fbright::before{
+        content: "15 july";
+        background-color: black;
+        color: #fff;
+        width: 70px;
+        height: 70px;
+        left: 30px;
+        top: 185px;
+        font-size: 25px;
+        position: absolute;
+        text-align: center;
+        border: 4px solid #eee;
+    }
+
+    .fifthbottom{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: black;
+        text-align: center;
+        border-radius: 8px;
+    }
+    
+    .fifthbottom img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        border: 4px solid gray;
+    }
+    
+    .fifthbottom h3{
+        color: rgb(241, 105, 55);
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    
+    .fifthbottom p{
+        color: #eee;
+        font-size: 14px;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .fifthbottom span{
+        color: #eee;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .footertop{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-between;
+    }
+
+    .ftbox1 input{
+        width: 100%;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .bottomtop, .bottom2{
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 10% 70%;
+        justify-content: space-between;
+    }
+
+    .contact1, .contact2, .contact3{
+        width: 50%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 5% 90%;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+}
